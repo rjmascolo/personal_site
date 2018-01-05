@@ -1,0 +1,14 @@
+.main-section {
+  flex: 1;
+  height: auto;
+  display: flex;
+  float: right;
+  width: 80%;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
+  background-color: inherit;
+  z-index: 4;
+}
