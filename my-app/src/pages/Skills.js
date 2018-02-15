@@ -6,10 +6,37 @@ class Skills extends React.Component {
 
   render() {
     return (
-      <section class="skills-section">
-          <h1>Skills</h1>
-          <img></img>
-          <p>Full stack web developer based out of NYC. Previously, I was working for the nonprofit, truth, in Washington DC, where I was introduced to the world of web development while project managing the recreation of my company’s website. Seeking to learn more, I enrolled in Flatiron School where I learned Javascript and Ruby and libraries like Ruby on Rails and React. I am quick learner, and continuously exploring new technologies to expand my knowledge.</p>
+      <section class="skills-section" id="skills">
+          <h2 class="skills-header">Skills</h2>
+            <div class="skills-list">
+              <h2 class="skills-header" >Languages</h2>
+              <ul class="skill-details">
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+
+            <div class="skills-list">
+              <h2 class="skills-header" >Frameworks</h2>
+              <ul class="skill-details">
+                <li>Ruby On Rails</li>
+                <li>React</li>
+                <li>Sinatra</li>
+              </ul>
+            </div>
+
+            <div class="skills-list">
+              <h2 class="skills-header">Tools</h2>
+              <ul class="skill-details">
+                <li>Bash</li>
+                <li>Git & Github</li>
+                <li>Chrome DevTools</li>
+                <li>Postman</li>
+              </ul>
+            </div>
       </section>
     )
   }

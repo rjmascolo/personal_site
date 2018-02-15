@@ -7,7 +7,7 @@ class Homepage extends React.Component {
 
   render() {
     return (
-      <section class="main-section">
+      <section class="main-section" id="homepage">
         <img src={image} width="100%" />
           <h1 class="home homepage-h1" >Ryan Mascolo</h1>
           <p class="home homepage-p">Full stack web developer based out of Brooklyn</p>
