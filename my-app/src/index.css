@@ -47,6 +47,7 @@ img {
 
 /* About Section */
 .about-section {
+  padding: 5em 6em 7em 6em;
   float: right;
   width: 80%;
   height: 100%;
@@ -54,8 +55,25 @@ img {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
+  background-color: #5D6A7F;
   /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
   z-index: 4;
+}
+
+.about-header {
+  font-family: 'Space Mono', monospace;
+  font-size: 3em;
+  /* margin: 0 0 .5em 0; */
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  color: white;
+}
+
+.about-content {
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* Skills Section */
@@ -76,11 +94,28 @@ img {
   font-size: 1.6em;
   margin: 0 0 .5em 0;
   text-align: left;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
 }
 
 .skill-details {
   font-family: 'Merriweather Sans', sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   margin: 0;
   text-align: left;
 }
+
+/* Project Section */
+
+.languages-used-item {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    font-family: Inconsolata,monospace;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    background: 0 0;
+  }
