@@ -121,6 +121,16 @@ img {
   justify-content: space-between;
 }
 
+#community {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.4em;
+}
+
+#really-good {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4em;
+}
+
 .project-title {
   font-size: 1.2em;
   font-family: 'Merriweather Sans', sans-serif;
