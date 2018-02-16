@@ -14,8 +14,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title">Marketr MGMT</h2>
                   <span>
-                    <i className="fa fa-github" id="icon"></i>
-                    <i className="fa fa-youtube-play" id="youtube-icon"></i>
+                    <i className="fab fa-github" id="icon"></i>
+                    <i className="fab fa-youtube" id="youtube-icon"></i>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>
@@ -44,8 +44,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title" id="community">Commun_ity</h2>
                   <span>
-                    <i className="fa fa-github" id="icon"></i>
-                    <i className="fa fa-youtube-play" id="youtube-icon"></i>
+                    <i className="fab fa-github" id="icon"></i>
+                    <i className="fab fa-youtube" id="youtube-icon"></i>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>
@@ -65,8 +65,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title" id="really-good">Really Good Photos</h2>
                   <span>
-                    <i className="fa fa-github" id="icon"></i>
-                    <i className="fa fa-youtube-play" id="youtube-icon"></i>
+                    <i className="fab fa-github" id="icon"></i>
+                    <i className="fab fa-youtube" id="youtube-icon"></i>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>

@@ -12,8 +12,10 @@ class Homepage extends React.Component {
           <h1 class="home homepage-h1" >Ryan Mascolo</h1>
           <p class="home homepage-p">Full stack web developer based out of Brooklyn</p>
           <p className="home homepage-icon-container" >
-            
-            <span><i className="fa fa-github" id="icon-homepage"></i></span>
+
+            <span><i className="fab fa-linkedin" id="icon-homepage"></i></span>
+            <span id="icon-homepage"><i className="far fa-file-alt"></i></span>
+            <span><i className="fab fa-github" id="icon-homepage"></i></span>
             <span><i class="fab fa-medium" id="icon-homepage"></i></span>
           </p>
       </section>
