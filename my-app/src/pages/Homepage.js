@@ -11,6 +11,11 @@ class Homepage extends React.Component {
         <img src={image} width="100%" />
           <h1 class="home homepage-h1" >Ryan Mascolo</h1>
           <p class="home homepage-p">Full stack web developer based out of Brooklyn</p>
+          <p className="home homepage-icon-container" >
+            
+            <span><i className="fa fa-github" id="icon-homepage"></i></span>
+            <span><i class="fab fa-medium" id="icon-homepage"></i></span>
+          </p>
       </section>
     )
   }
