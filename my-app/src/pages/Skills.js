@@ -16,6 +16,7 @@ class Skills extends React.Component {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SQL</li>
+                <li>JSON</li>
               </ul>
             </div>
 
@@ -31,10 +32,11 @@ class Skills extends React.Component {
             <div class="skills-list">
               <h2 class="skills-header">Tools</h2>
               <ul class="skill-details">
-                <li>Bash</li>
                 <li>Git & Github</li>
                 <li>Chrome DevTools</li>
                 <li>Postman</li>
+                <li>Semantic UI</li>
+                <li>Bootstrap</li>
               </ul>
             </div>
       </section>
