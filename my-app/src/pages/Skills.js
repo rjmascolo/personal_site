@@ -1,6 +1,7 @@
 import React from 'react';
 import { Icon } from 'react-materialize'
 import "../css/Skills.css"
+// import image from "../images/hypnotize.png"
 
 class Skills extends React.Component {
 

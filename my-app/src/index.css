@@ -97,8 +97,7 @@ img {
   display:grid;
   grid-template-columns: 20% 70%;
   padding: 9em 1em 6em 1em;
-  /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
-
+  background-image:url("./images/hypnotize.png");
 }
 
 .flex {
