@@ -1,6 +1,5 @@
 .nav-ul {
   width:100%;
-  /* padding: 0 8em 0 8em; */
   display:flex;
   justify-content: center;
   position: fixed;
@@ -17,19 +16,37 @@
   max-height: 48px;
   padding: 0;
   font-weight: bold;
-  border-bottom: 2px solid rgba(34,36,38,.15);
   margin: 0 2em;
+}
+
+@keyframes glossy {
+ 0% { transform: rotate(-30deg); }
+ 100% { transform: rotate(-30deg); }
+}
+
+.nav-li :hover {
+  border-bottom: 2px solid #3565B2;
+  color: #3565B2;
+  background-color: rgba(255,255,255,.4);
+  transition: background-color 0.3s ease-out;
 }
 
 a {
   color:#5D6A7F;
+  border-bottom: 2px solid rgba(34,36,38,.15);
+  padding-bottom: .7em
 }
 
 #nav-text {
-  color: #5D6A7F;
+  /* color: #5D6A7F; */
   flex: 0 1 auto;
   font-size: 1.1em;
+  border-bottom: 0px solid rgba(34,36,38,.80);
+}
 
+.active {
+  border-bottom: 2px solid #3565B2;
+  color: #3565B2;
 }
 
 .icon {
@@ -37,6 +54,7 @@ a {
   padding-top: .3em;
   position: relative;
   top: .2em;
+  pointer-events:none
 }
 
 .last{
