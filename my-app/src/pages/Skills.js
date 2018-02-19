@@ -8,6 +8,7 @@ class Skills extends React.Component {
     return (
       <section class="skills-section" id="skills">
           <h2 class="skills-header">Skills</h2>
+          <div class="flex">
             <div class="skills-list">
               <h2 class="skills-header" >Languages</h2>
               <ul class="skill-details">
@@ -39,6 +40,7 @@ class Skills extends React.Component {
                 <li>Bootstrap</li>
               </ul>
             </div>
+          </div>
       </section>
     )
   }

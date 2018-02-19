@@ -94,18 +94,23 @@ img {
 
 .skills-section {
   height: 100%;
-  display:flex;
-  justify-content: space-around;
-  margin: 3em 1em 3em 1em;
+  display:grid;
+  grid-template-columns: 20% 70%;
+  padding: 9em 1em 6em 1em;
   /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
 
+}
+
+.flex {
+  display:flex;
+  justify-content: space-around;
 }
 
 .skills-header {
   font-family: 'Space Mono', monospace;
   font-size: 1.6em;
   margin: 0 0 .5em 0;
-  text-align: left;
+  text-align: right;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
 }
@@ -123,8 +128,9 @@ img {
   float: right;
 
   height: 100%;
-  display: flex;
-  padding: 0 1em 0 1em;
+  display:grid;
+  grid-template-columns: 20% 70%;
+  padding: 5em 1em 4em 1em;
   /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
   z-index: 4;
 }

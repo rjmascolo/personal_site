@@ -21,8 +21,12 @@
   margin: 0 2em;
 }
 
+a {
+  color:#5D6A7F;
+}
+
 #nav-text {
-  color: black;
+  color: #5D6A7F;
   flex: 0 1 auto;
   font-size: 1.1em;
 
