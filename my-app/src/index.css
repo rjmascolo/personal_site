@@ -180,12 +180,13 @@ img {
 
 #icon {
   font-size: 1.8em;
-  margin: .4em 0 .4em 1em;
+  margin: 0 0 0 1em;
+  /* margin: .4em 0 .4em 1em; */
 }
 
 #youtube-icon {
   font-size: 1.8em;
-  margin: .4em .5em;
+  margin: 0 0 0 .5em;
   color:#cc181e;
 }
 .site-arrow {

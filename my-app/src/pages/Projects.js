@@ -14,13 +14,15 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title">Marketr MGMT</h2>
                   <span>
-                    <a href="https://github.com/rjmascolo/marketr_MGMT_frontend"><i className="fab fa-github" id="icon"></i></a>
-                    <a><i className="fab fa-youtube" id="youtube-icon"></i></a>
+                    <a href="https://github.com/rjmascolo/marketr_MGMT_frontend" target="_blank"><i className="fab fa-github" id="icon"></i></a>
+                    <a target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
-                <span className="site-arrow">&#8680;</span>
+                <a href="https://marketr-mgmt-frontend.firebaseapp.com/login" target="_blank"><span className="site-arrow">&#8680;</span></a>
               </div>
-              <img href={image} />
+              <div>
+                <img href={image} />
+              </div>
               <p className="project-details">
                 Marketr MGMT is a project management app for marketing and the process
                 of creating assets. Users can create projects, assign them to campaigns,
@@ -45,8 +47,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title" id="community">Commun_ity</h2>
                   <span>
-                    <a href="https://github.com/rjmascolo/commun_ity"><i className="fab fa-github" id="icon"></i></a>
-                    <a href=""><i className="fab fa-youtube" id="youtube-icon"></i></a>
+                    <a href="https://github.com/rjmascolo/commun_ity" target="_blank"><i className="fab fa-github" id="icon"></i></a>
+                    <a href="" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>
@@ -66,11 +68,11 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title" id="really-good">Really Good Photos</h2>
                   <span>
-                    <a href="https://github.com/rjmascolo/really_good_photos"><i className="fab fa-github" id="icon"></i></a>
-                    <a href=""><i className="fab fa-youtube" id="youtube-icon"></i></a>
+                    <a href="https://github.com/rjmascolo/really_good_photos" target="_blank"><i className="fab fa-github" id="icon"></i></a>
+                    <a href="" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
-                <span className="site-arrow">&#8680;</span>
+                <a href="http://really-good-photos.herokuapp.com/" target="_blank"><span className="site-arrow">&#8680;</span></a>
               </div>
               <p class="project-details">Really Good Photos grabs your address and then serves you photos have been taken in your surrounding area. It is great for finding new cool locations that you have never seen before. The app hooks up to the Google Maps API and allows you to see the location the photo was taken at. Also, if you see any photos you like, you can save them to be apart of your own list. Or if you want to see photos that have been in other areas, you can use the search feature to look around.</p>
               <div className="languages-container">
