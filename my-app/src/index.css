@@ -16,6 +16,16 @@ body {
   background-color:gray;
   z-index: 4;
 }
+.mobile-homepage-info{
+  visibility: hidden;
+  height: 0;
+}
+
+.mobile {
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+}
 
 .home {
   color: white;

@@ -1,18 +1,32 @@
 @media only screen and (max-width: 800px)  {
  .nav-ul {
-  visibility: hidden;
-}
+    /* padding: 0 1em !important; */
+  }
+  #nav-text {
+    visibility: hidden;
+  }
+  .nav-li {
+    margin: 0 1em !important;
+  }
 /* Main section */
  .main-section {
-    margin-top: 0;
-    padding-bottom: 12em;
+    /* margin-top: 0; */
   }
+  .mobile-homepage-info {
+    height: 12em;
+  }
+
+  .desktop-homepage-info {
+    visibility: hidden;
+  }
+
  .homepage-h1 {
-   font-size: 3em;
-   top: 5.5em;
+   font-size: 2.5em;
+   text-shadow: 2px 2px gray;
+   color:white;
   }
   .homepage-p {
-    top: 18em;
+    text-shadow: 2px 2px gray;
   }
   .homepage-icon-container {
     top: 24em;
