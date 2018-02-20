@@ -24,7 +24,7 @@
  100% { transform: rotate(-30deg); }
 }
 
-.nav-li :hover {
+.nav-li:hover {
   border-bottom: 2px solid #3565B2;
   color: #3565B2;
   background-color: rgba(255,255,255,.4);
@@ -33,7 +33,6 @@
 
 .nav-links {
   color:#5D6A7F;
-  border-bottom: 2px solid rgba(34,36,38,.15);
   padding-bottom: .7em
 }
 
