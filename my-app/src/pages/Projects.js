@@ -1,6 +1,6 @@
 import React from 'react';
-import { Icon } from 'react-materialize'
 import "../css/Projects.css"
+import image from "../images/computer-monitor-with-blank-screen.png"
 
 class Projects extends React.Component {
 
@@ -20,6 +20,7 @@ class Projects extends React.Component {
                 </div>
                 <span className="site-arrow">&#8680;</span>
               </div>
+              <img href={image} />
               <p className="project-details">
                 Marketr MGMT is a project management app for marketing and the process
                 of creating assets. Users can create projects, assign them to campaigns,

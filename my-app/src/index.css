@@ -16,6 +16,11 @@ body {
   background-color:gray;
   z-index: 4;
 }
+
+.homepage-image {
+  width: 100%;
+}
+
 .mobile-homepage-info{
   visibility: hidden;
   height: 0;
@@ -196,6 +201,7 @@ img {
 .languages-container {
   align-items: left;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .languages-used-item {
@@ -209,4 +215,8 @@ img {
     color: #007bff;
     border: 1px solid #007bff;
     background: 0 0;
+  }
+
+  a {
+    color: black;
   }
