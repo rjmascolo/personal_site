@@ -104,12 +104,15 @@ img {
   display:flex;
   justify-content: space-around;
 }
+.section-header {
+  text-align: right !important;
+}
 
 .skills-header {
   font-family: 'Space Mono', monospace;
   font-size: 1.6em;
   margin: 0 0 .5em 0;
-  text-align: right;
+  text-align: left;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
 }
@@ -124,13 +127,10 @@ img {
 /* Project Section */
 
 .projects-section {
-  float: right;
-
   height: 100%;
   display:grid;
   grid-template-columns: 20% 70%;
   padding: 5em 1em 4em 1em;
-  /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
   z-index: 4;
 }
 
