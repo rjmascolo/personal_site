@@ -14,8 +14,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title">Marketr MGMT</h2>
                   <span>
-                    <i className="fab fa-github" id="icon"></i>
-                    <i className="fab fa-youtube" id="youtube-icon"></i>
+                    <a href="https://github.com/rjmascolo/marketr_MGMT_frontend"><i className="fab fa-github" id="icon"></i></a>
+                    <a><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>
@@ -44,8 +44,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title" id="community">Commun_ity</h2>
                   <span>
-                    <i className="fab fa-github" id="icon"></i>
-                    <i className="fab fa-youtube" id="youtube-icon"></i>
+                    <a href="https://github.com/rjmascolo/commun_ity"><i className="fab fa-github" id="icon"></i></a>
+                    <a href=""><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>
@@ -65,8 +65,8 @@ class Projects extends React.Component {
                 <div>
                   <h2 className="project-title" id="really-good">Really Good Photos</h2>
                   <span>
-                    <i className="fab fa-github" id="icon"></i>
-                    <i className="fab fa-youtube" id="youtube-icon"></i>
+                    <a href="https://github.com/rjmascolo/really_good_photos"><i className="fab fa-github" id="icon"></i></a>
+                    <a href=""><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
                 <span className="site-arrow">&#8680;</span>

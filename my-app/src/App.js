@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './mobile-site.css';
 import NavBar from './NavBar'
 import Homepage from './pages/Homepage'
 import AboutMe from './pages/AboutMe'

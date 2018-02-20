@@ -1,0 +1,46 @@
+@media only screen and (max-width: 800px)  {
+ .nav-ul {
+  visibility: hidden;
+}
+/* Main section */
+ .main-section {
+    margin-top: 0;
+    padding-bottom: 12em;
+  }
+ .homepage-h1 {
+   font-size: 3em;
+   top: 5.5em;
+  }
+  .homepage-p {
+    top: 18em;
+  }
+  .homepage-icon-container {
+    top: 24em;
+  }
+  /* About Me section */
+  .about-section {
+    padding: 4em 1.5em;
+  }
+  .about-header {
+    margin-top: 0;
+  }
+
+  /* Skills Section */
+  .skills-section {
+    padding: 4em 1.5em 6em 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-header {
+    margin-bottom: 2em
+  }
+  .flex {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .skills-list {
+    margin: 0 1em
+  }
+}
