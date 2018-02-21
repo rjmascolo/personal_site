@@ -20,9 +20,9 @@ class Projects extends React.Component {
                 </div>
                 <a href="https://marketr-mgmt-frontend.firebaseapp.com/login" target="_blank"><span className="site-arrow">&#8680;</span></a>
               </div>
-              <div>
+              {/* <div>
                 <img href={image} />
-              </div>
+              </div> */}
               <p className="project-details">
                 Marketr MGMT is a project management app for marketing and the process
                 of creating assets. Users can create projects, assign them to campaigns,

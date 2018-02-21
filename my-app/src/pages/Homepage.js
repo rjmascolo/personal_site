@@ -8,7 +8,7 @@ class Homepage extends React.Component {
     return (
       <section class="main-section" id="homepage">
         <div class="image-wrapper">
-          <img src={image} class="homepage-image" />
+          <img onLoad={this.props.handleOnLoad} src={image} class="homepage-image" />
         </div>
         <div class="desktop-homepage-info">
           <h1 class="home homepage-h1" >Ryan Mascolo</h1>
