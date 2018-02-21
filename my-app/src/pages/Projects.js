@@ -15,7 +15,7 @@ class Projects extends React.Component {
                   <h2 className="project-title">Marketr MGMT</h2>
                   <span>
                     <a href="https://github.com/rjmascolo/marketr_MGMT_frontend" target="_blank"><i className="fab fa-github" id="icon"></i></a>
-                    <a target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
+                    {/* <a target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a> */}
                   </span>
                 </div>
                 <a href="https://marketr-mgmt-frontend.firebaseapp.com/login" target="_blank"><span className="site-arrow">&#8680;</span></a>
@@ -48,10 +48,10 @@ class Projects extends React.Component {
                   <h2 className="project-title" id="community">Commun_ity</h2>
                   <span>
                     <a href="https://github.com/rjmascolo/commun_ity" target="_blank"><i className="fab fa-github" id="icon"></i></a>
-                    <a href="" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
+                    {/* <a href="" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a> */}
                   </span>
                 </div>
-                <span className="site-arrow">&#8680;</span>
+                {/* <span className="site-arrow">&#8680;</span> */}
               </div>
               <p className="project-details">Commun_ity is a web app that connects users to different communities they want to be apart of and lets them see different events within that community. It works similarly to MeetUp but with Commun_ity, users can volunteer for tasks they would like to sign up for.</p>
               <div className="languages-container">
@@ -69,7 +69,7 @@ class Projects extends React.Component {
                   <h2 className="project-title" id="really-good">Really Good Photos</h2>
                   <span>
                     <a href="https://github.com/rjmascolo/really_good_photos" target="_blank"><i className="fab fa-github" id="icon"></i></a>
-                    <a href="" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
+                    {/* <a href="" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a> */}
                   </span>
                 </div>
                 <a href="http://really-good-photos.herokuapp.com/" target="_blank"><span className="site-arrow">&#8680;</span></a>

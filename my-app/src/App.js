@@ -66,7 +66,6 @@ class App extends Component {
     } else if(scroll >= homeAboutSkillsHeight){
       this.setState({currentPosition:'projects'})
     }
-    console.log(scroll)
   }
 
   render() {

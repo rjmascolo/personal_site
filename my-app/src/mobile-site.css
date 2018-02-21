@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px)  {
+@media only screen and (max-width: 700px)  {
  .nav-ul {
     /* padding: 0 1em !important; */
   }
@@ -7,6 +7,12 @@
   }
   .nav-li {
     margin: 0 1em !important;
+    min-width: 2em !important;
+    max-width: 100% !important;
+  }
+  .mobile-block {
+    display:block;
+    width: 6em;
   }
 /* Main section */
  .main-section {
@@ -93,5 +99,11 @@
   .project-container {
     width:100%;
     padding: 1em 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .mobile-block {
+    width: 100%;
   }
 }
